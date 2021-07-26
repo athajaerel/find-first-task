@@ -1,6 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
+function die() {
+	echo $1
+	exit 1
+}
+
 F=$1
 S=$1
 
